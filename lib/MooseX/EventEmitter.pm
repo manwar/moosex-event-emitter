@@ -1,7 +1,7 @@
 package MooseX::EventEmitter {
 	use Moose::Role;
 
-	our $VERSION = '0.1';
+	our $VERSION = '0.2';
 
 	has '_events' => (
 		is => 'ro',
@@ -98,7 +98,7 @@ MooseX::EventEmitter - Moose Event emitter
 
 This was inspired by L<Mojo::EventEmitter> but adapted for Moose. Mojolicious has it's own
 object system, I wanted to make this a L<Moose> "native" component. It's a lighter alternative
-to L<MooseX::Event>. which more knobs if you need that.
+to L<MooseX::Event>. which has more knobs if you need that.
 
 =head1 METHODS
 
@@ -125,7 +125,7 @@ Removed a subscriber or all subscribers for the named event.
 
 Tudor Marghidanu <tudor@marghidanu.com>
 
-=head1
+=head1 LICENSE
 
 This program is free software, you can redistribute it and/or modify it under
 the terms of the Artistic License version 2.0.
