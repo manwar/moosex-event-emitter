@@ -1,0 +1,10 @@
+.vagrant/
+
+_build/
+blib/
+Build
+MYMETA.*
+META.*
+MANIFEST
+
+*.tar.gz
